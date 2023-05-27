@@ -1,0 +1,33 @@
+{
+    "name": "2 BHK house",
+    "address": "Cherai, Ernakulam",
+    "description": "A 2 BHK house for single families",
+    "image": "https://ipfs.io/ipfs/QmdguwNpHdWmCUiDkkZVwg28HP5hX2t7Ue5wU8zWcs74Uj?filename=ekmhouse.jpg",
+    "id": "6",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 25
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Single Family Residence"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 2
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 2500
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2010
+        }
+    ]
+}

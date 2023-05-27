@@ -1,0 +1,33 @@
+{
+    "name": "Luxury Apartment",
+    "address": "Panampilly Nagar, Kadavanthara, Kochi",
+    "description": "A spacious and luxurious apartment",
+    "image": "https://ipfs.io/ipfs/Qmf6uuUob7De26qPtDn8kGpgStGck68DkeBmmvwmeseWu6?filename=kochiflat.png",
+    "id": "5",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 15
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Single Family Residence"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 3
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 2300
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2018
+        }
+    ]
+}

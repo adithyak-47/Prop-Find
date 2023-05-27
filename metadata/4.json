@@ -1,0 +1,33 @@
+{
+    "name": "Tea Estate",
+    "address": "Near Munnar Tea Museum, Munnar",
+    "description": "A comfortable tea estate in Munnar",
+    "image": "https://ipfs.io/ipfs/QmVhxReJZBZ6E7s9wAfDp6FQqer33cszxSPeNTTsxaBS6B?filename=munnarteaestate.jpg",
+    "id": "4",
+    "attributes": [
+        {
+            "trait_type": "Purchase Price",
+            "value": 12
+        },
+        {
+            "trait_type": "Type of Residence",
+            "value": "Multi Family Residence"
+        },
+        {
+            "trait_type": "Bed Rooms",
+            "value": 6
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 9
+        },
+        {
+            "trait_type": "Square Feet",
+            "value": 3200
+        },
+        {
+            "trait_type": "Year Built",
+            "value": 2015
+        }
+    ]
+}
