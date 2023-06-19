@@ -67,7 +67,7 @@ function App() {
   return (
     <div>
       <Navigation account = {account} setAccount={setAccount} />
-      <Search />
+      {/* <Search /> */}
       <div className='cards__section'>
 
         <h3>Homes for you!</h3><hr/>

@@ -20,6 +20,7 @@ body {
   font-family: "Open Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--clr-black);
 }
 
 /* ------------------------------------------------------ */
@@ -29,14 +30,21 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  /* background-image: url("./assets/housepic.jpg"); */
+  background-image: url("./assets/housepic.jpg");
+  background-size:contain;
+  background-repeat:round;
 }
 
 .nav__brand {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding: 20px;
+  background-color: whitesmoke;
+  padding-top:5px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  margin-top: 20px;
 }
 
 .nav__brand img {
@@ -45,7 +53,7 @@ nav {
 }
 
 .nav__brand h1 {
-  color: var(--clr-blue);
+  color: black;
   font-size: 2.5em;
   font-weight: 800;
 }
@@ -66,15 +74,19 @@ nav {
 .nav__links li a {
   text-decoration: none;
   font-weight: bolder;
-  color: var(--clr-black);
+  font-size: 1.5em;
+  color: white;
   transition: 0.5s;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
 }
 
 .nav__links li :hover{
-  box-shadow: 1px 1px 7px 1px white;
-  padding: 10px;
-  border-radius: 7px;
-  background-color: var(--clr-blue);
+  box-shadow: 1px 1px 7px 5px white;
+  /* padding: 10px; */
+  border-radius: 10px;
+  background-color: black;
 }
 
 /* .nav__links li a:hover {
@@ -86,9 +98,9 @@ nav {
   height: 50px;
   margin: 0 auto;
 
-  background-color: var(--clr-blue);
+  background-color: black;
   color: var(--clr-white);
-
+  box-shadow: -5px 5px 13px 5px white;;
   border: none;
   border-radius: 4px;
 
@@ -160,6 +172,7 @@ header {
 
 .cards__section h3 {
   margin: 50px 0 20px;
+  color: white;
 }
 
 .cards {
@@ -173,27 +186,29 @@ header {
   width: 350px;
   height: 275px;
 
-  border: 1px solid var(--clr-black);
+  /* border: 1px solid var(--clr-black); */
   margin: 10px auto;
 
   cursor: pointer;
   position: relative;
-
+  border-radius: 10px;
   transition: all 250ms ease;
 }
 
 .card:hover {
-  box-shadow: 1px 1px 5px var(--clr-grey);
+  box-shadow: 5px 5px 7px var(--clr-white);
 }
 
 .card__image {
   position: absolute;
   width: 100%;
   z-index: -1;
+  
 }
 
 .card__image img {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .card__info {
@@ -228,7 +243,7 @@ header {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
-
+  border-radius: 10px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -306,7 +321,7 @@ header {
 .home__owned {
   margin: 20px 5px;
 
-  background-color: var(--clr-blue);
+  background-color: var(--clr-black);
   color: var(--clr-white);
 
   border: none;
